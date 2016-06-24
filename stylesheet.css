@@ -1,0 +1,196 @@
+html { 
+  background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    
+    background-position: 0px 50px;
+}
+
+body {
+    width: 100%;
+    margin: auto;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    height: 125px;
+    background-color: white;
+    
+    /*border-bottom: 5px white solid;*/
+    
+    top: 0px;
+}
+
+
+.logo {
+    float: left;
+    
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+.logo img {
+    height: 100px;
+}
+
+.log-in {
+    float: right;
+    
+    padding-top: 50px;
+    
+}
+
+.login-field {
+    height: 30px;
+    
+    background-color: grey;
+    
+    border: none;
+    
+    text-align: center;
+    font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+    font-size: 10pt;
+    
+}
+
+.login-form-button {
+    width: 115px;
+    height: 30px;
+    
+    background-color: #7dbacd;
+    
+    font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+    font-size: 12pt;
+    color: white;
+    
+    border-radius: 0px;
+    border: none;
+}
+
+.login-form-button:hover {
+    /* background-color: #339966; */
+    
+    cursor: pointer;
+}
+
+.body-text {
+    width: 100%;
+    /* background: blue; */
+}
+
+.top-slogan {
+    text-align: center;
+    color: white;
+    
+    font-family: "Bookman Old Style";
+    font-size: 14px;
+	font-weight: 500;
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+ul {
+    padding-left: 5%;
+    
+}
+
+ul li {
+    padding-bottom: 15px;
+    color: white;
+    
+    font-family: "Bookman Old Style";
+    font-size: 13px;
+    
+    font-weight: lighter;
+    
+}
+
+.bottom-slogan {
+    text-align: center;
+    color: white;
+    
+    padding-bottom: 20px;
+    
+    font-family: "Bookman Old Style";
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    
+
+}
+
+.email-slogan {
+    text-align: center;
+    color: white;
+    
+    padding-bottom: 5px;
+    
+    font-family: "Bookman Old Style";
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+
+
+.links-container {
+    
+    width: 100%;
+    
+    /* background: green; */
+    
+    text-align: center;
+    
+    padding-top: 30px;
+}
+
+.links-container .signup-link {
+    
+    text-decoration: none;
+    color: white;
+    
+    padding: 10px 20px;
+    margin: 5px;
+
+    
+    border: 2px solid #7dbacd;
+    
+}
+
+.links-container .signup-link:hover {
+    background: #7dbacd;
+    border: 2px solid #7dbacd;
+}
+
+
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 45%;
+    
+    font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+    font-size: 10pt;
+    color: white;
+}
+
+/* below for construction.html */
+
+.construction-text {
+    font-family: "Bookman Old Style";
+    font-size: 12px;
+    font-weight: lighter;
+    
+    text-align: center;
+    color: white;
+    
+    padding-top: 10%;
+}
+
